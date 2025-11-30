@@ -1,0 +1,129 @@
+<!-- Receipt Page - HTML Only -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receipt</title>
+    <link rel="stylesheet" href="Receipt.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="header-top">
+            <div class="contanier">
+             <p> مرحبا بكم في متجر اكس بريمو</p>
+             <div class="link-top-heder">
+                 <a href="#">My Account</a>
+                 <a href="#">My Wishlist</a>
+                 <a href="sign-up-page.html">Sign In</a>
+                 <a href="#">Compare</a>
+             </div>
+         </div>
+           </div>
+
+           <div class="header-info">
+            <div class="contanier">
+                <img src="img/logo.png" alt="">
+            
+            <div class="search-bar">
+                <form action="">
+                    <input type="search" placeholder="ابحث عن طلبك...">
+                    <button class="btn-srch">بحث</button>
+                </form>
+            </div>
+            <div class="card">
+                <div class="price">
+                    <p>السلة :</p>
+                    <span>255.00 جنيه</span>
+                </div>
+                <a href="mycart.html"><i class="fa-solid fa-bag-shopping"></i> <span class="count-in-card">2</span></a>
+
+                
+            </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+           <div class="contanier">
+            <i id="open-side" class="fa-solid fa-bars"></i>
+            <ul class="nav-links">
+                    
+                <li><a href="index.html"> الرئيسة</a>
+                
+                </li>
+
+                <li>
+                    <a href="features.html">الأجهزة الكهربائية</a>
+
+                    <div class="drobdwon">
+                        <ul><li><a href="betuflpage.html">غسالات</a></li></ul>
+                        <ul><li><a href="#">نلاجات</a></li></ul>
+                        <ul><li><a href="#">مكانس</a></li></ul>
+                        <ul><li><a href="#">شبابيك</a></li></ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="about.html"> الأدوات المنزلية</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">الموبايلات و اكسسواراتها</a>
+                </li>
+                <li><a href="index.html"> الملابس </a></li>
+
+                <li><a href="betuflpage.html"> مستحضرات الجمال</a></li>
+                <li><a href="index.html"> المفروشات</a></li>
+              
+
+
+            </ul>
+            <a href="sign-up-page.html" class="sign-in-btn"><i class="fa-solid fa-user-plus"></i> انشاء حساب </a>
+
+            
+           </div>
+        </div>
+
+
+    </header>
+    <div class="receipt-container">
+        <div class="receipt-header">
+            <h2>Order Receipt</h2>
+            <p>Thank you for your purchase!</p>
+        </div>
+
+        <div class="receipt-info">
+            <p><strong>Order ID:</strong> #123456</p>
+            <p><strong>Date:</strong> 11/30/2025</p>
+            <p><strong>Customer:</strong> John Doe</p>
+        </div>
+
+        <div class="receipt-items">
+            <h3>Order Summary</h3>
+            <div class="item">
+                <span>Product Name 1</span>
+                <span>$133.00</span>
+            </div>
+            <div class="item">
+                <span>Product Name 2</span>
+                <span>$133.00</span>
+            </div>
+            <div class="item">
+                <span>Shipping</span>
+                <span>$50.00</span>
+            </div>
+        </div>
+
+        <div class="receipt-total">
+            <span>Total</span>
+            <span>$316.00</span>
+        </div>
+
+        <div class="receipt-footer">
+            <p>We appreciate your business!</p>
+        </div>
+    </div>
+</body>
+</html>
